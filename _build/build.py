@@ -30,6 +30,9 @@ LANGS = {
            "home": "Home", "review": "Review"},
     "de": {"html": "de-DE", "og": "de_DE", "close": "Schließen", "official": "offizielle Website", "bottles": "Flaschen",
            "home": "Startseite", "review": "Erfahrungen"},
+    # "fr" = produtos anunciados só em francês (pedido do usuário em 2026-10-26, primeiro: Nervexa). Mesmas regras da seção 14.
+    "fr": {"html": "fr-FR", "og": "fr_FR", "close": "Fermer", "official": "site officiel", "bottles": "flacons",
+           "home": "Accueil", "review": "Avis"},
 }
 
 
@@ -88,6 +91,66 @@ PAGES = {
         "og_image": "olivaro-og.jpg",
         "popup_text": "Buying directly from the official source ensures you receive the authentic original product.",
         "cta_text": "Check Availability On Official Website",
+    },
+    "nervexa-fr": {
+        "name": "Nervexa",
+        "lang": "fr",
+        # Digistore24 (checkout-ds24.com) pela página do produtor get-nervexa.com, que repassa aff e sid1..sid5 ao checkout.
+        # Produto anunciado só em francês ou alemão (usuário, 2026-10-26); esta é a versão francesa.
+        "affiliate": "https://get-nervexa.com/dtc-fr/?aff=YuryFerreira",
+        "plataforma": "digistore24",
+        "marcador_link": "get-nervexa.com",
+        "official": "https://get-nervexa.com/fr/",
+        "title": "Nervexa Avis 2026 : Un Complément Fabriqué aux États-Unis",
+        "description": "Avis Nervexa : complément fabriqué aux États-Unis pour le confort des nerfs, avec sa composition, la dose quotidienne, les précautions et la garantie.",
+        "product_description": "Nervexa est un complément alimentaire en gélules (30 par flacon) associant acide alpha-lipoïque, zinc, chrome, thé vert, chardon-Marie, berbérine, resvératrol, Cayenne, ginseng coréen et lilas des Indes.",
+        "published": "2026-10-26",
+        "modified": "2026-10-26",
+        "colors": {
+            "primary": "#34519E",
+            "primary-hover": "#22346B",
+            "secondary": "#4A6FC4",
+            "bg": "#FFFFFF",
+            "text": "#000000",
+            "cta": "#FFCC00",
+            "cta-hover": "#E7B900",
+            "cta-text": "#000000",
+        },
+        "hero_image": "nervexa-fr-bottle.webp",
+        "hero_size": (550, 550),
+        "og_image": "nervexa-fr-og.jpg",
+        "popup_text": "En achetant directement auprès de la source officielle, vous recevez le produit authentique d’origine.",
+        "cta_text": "Vérifier la disponibilité sur le site officiel",
+        "testimonials": False,
+    },
+    "memo-meister-fr": {
+        "name": "Memo Meister",
+        "lang": "fr",
+        # Digistore24 (checkout-ds24.com) pela página do produtor get-meister.com, que repassa aff e sid1..sid5 ao checkout.
+        "affiliate": "https://get-meister.com/dtc-fr?aff=YuryFerreira",
+        "plataforma": "digistore24",
+        "marcador_link": "get-meister.com",
+        "official": "https://get-meister.com/fr/",
+        "title": "Memo Meister Avis 2026 : Fabriqué aux États-Unis",
+        "description": "Avis Memo Meister : complément fabriqué aux États-Unis pour la mémoire et la concentration, avec sa composition, la dose, les précautions et la garantie.",
+        "product_description": "Memo Meister est un complément alimentaire en gélules (30 par flacon) avec vitamine B3, zinc, L-citrulline, L-carnitine, écorce de pin, maca, raisin et safran.",
+        "published": "2026-10-26",
+        "modified": "2026-10-26",
+        "colors": {
+            "primary": "#1C54A1",
+            "primary-hover": "#213570",
+            "secondary": "#1855AA",
+            "bg": "#FFFFFF",
+            "text": "#000000",
+            "cta": "#FFCC00",
+            "cta-hover": "#E7B900",
+            "cta-text": "#000000",
+        },
+        "hero_image": "memo-meister-fr-bottle.webp",
+        "hero_size": (550, 550),
+        "og_image": "memo-meister-fr-og.jpg",
+        "popup_text": "En achetant directement auprès de la source officielle, vous recevez le produit authentique d’origine.",
+        "cta_text": "Vérifier la disponibilité sur le site officiel",
     },
 }
 
